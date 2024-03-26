@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+
+/* ----------------------HEADER---------------------------- */
+img.logo{
+    width: 6%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 7px 20px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 20%), 0 4px 12px rgb(0 0 0 / 20%);
+}
+
+input{
+    width: 1070px; 
+    height: 45px;
+    border: 1px solid;
+    border-radius: 9999px;
+    padding-left: 50px ;
+    font-size: 15px;
+    background-color: #F7F9FA;
+    color: #6A6F73;
+ } 
+
+ .fa-magnifying-glass{
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    color: #6A6F73;
+ }
+
+#navigation div{
+    padding: 10px;
+    font-size: 16px;
+}
+
+#navigation a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #1C1D1F;
+}
+
+#navigation button{
+    width: 80px;
+    height: 40px;
+}
+
+.nav-cat{
+    width: 90px;
+}
+
+.nav-ub{
+    width: 150px;
+}
+
+.nav-teach{
+    width: 140px;
+}
+
+.nav-login button{
+    background-color: #fff;
+}
+
+.nav-signup button{
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-world{
+    border: solid 1px #000;
+}
+
+
+/* ---------------------- INTRO ------------------------- */
+
+
+.course-details-top{
+    background-color: #1C1D1F;
+    padding: 100px 350px 100px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.rating{
+    color: #B4690E;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.fa-star, .fa-star-half-stroke{
+    color: #E59819;
+}
+
+.course-details-bottom{
+    font-size: 16px;
+}
+
+.cart_box{
+    position: absolute;
+    right: 300px;
+    top: 170px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    height: 550px;
+    width: 300px;
+    padding: 20px;
+}
+
+#cart button{
+    width: 250px;
+    height: 50px;
+
+}
+
+
+.add_to_cart button{
+    background-color: #A435F0fff;
+}
+
+.buy_now button{
+    background-color: #A435F0;
+    color: #000000;
+}
+
+
+    /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+
+/* ---------------- FOOTER-------------------------------- */
+footer{
+    background-color: #1C1D1F;
+    padding: 30px 50px 30px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.top-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.FAQ{
+   width: 700px;
+   display: flex;
+   justify-content: space-between;
+}    
+
+.FAQ-list{
+    list-style: none;
+    line-height: 1.7rem;
+}
+
+.FAQ-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.language{
+    padding-bottom: 80px;
+}
+
+.lang-button{
+    width: 150px;
+    background-color: #1C1D1F;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.bottom-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.udemy-dark{
+    width: 200%;
+}
+
+.copyright{
+    width: 250px;
+    font-size: 12px;
+}
